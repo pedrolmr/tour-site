@@ -44,6 +44,7 @@ body{
 	color:#fff;
 	text-transform: uppercase;
 	backface-visibility: hidden;
+	margin-bottom: 50px;
 }
 
 .heading-primary-main{
@@ -55,6 +56,7 @@ body{
 	animation-name: moveLeft;
 	animation-duration: 1s;
 	animation-timing-function: ease-out;
+
 }
 
 .heading-primary-sub{
@@ -72,6 +74,7 @@ body{
 	top:40%;
 	left:50%;
 	transform: translate(-50%, -50%);
+	text-align: center;
 }
 
 @keyframes moveLeft{
@@ -105,7 +108,18 @@ body{
 		transform:translate(0);
 	}
 }
+.btn:link,
+.btn:visited{
+	text-transform: uppercase;
+	text-decoration: none;
+	padding:15px 40px;
+	display: inline-block;
+}
 
+.btn-white{
+	background-color: #fff;
+	color:#777;
+}
 
 
 
