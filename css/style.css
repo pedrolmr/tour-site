@@ -19,7 +19,7 @@ body{
 	color:#333;
 }
 .header{
-	height:95vh;
+	height:100vh;
 	background-image: linear-gradient(
 		to right bottom,
 		rgba(126, 213, 111, 0.8),
@@ -43,6 +43,7 @@ body{
 .heading-primary{
 	color:#fff;
 	text-transform: uppercase;
+	backface-visibility: hidden;
 }
 
 .heading-primary-main{
@@ -53,6 +54,7 @@ body{
 
 	animation-name: moveLeft;
 	animation-duration: 1s;
+	animation-timing-function: ease-out;
 }
 
 .heading-primary-sub{
@@ -61,8 +63,7 @@ body{
 	font-weight: 700;
 	letter-spacing: 17.4px;
 
-	animation-name: moveUp;
-	animation-duration: 1s;
+	animation:moveRight 1s ease-out;
 
 }
 
@@ -80,7 +81,7 @@ body{
 	}
 
 	80%{
-
+		transform: translateX(10px);
 	}
 
 	100%{
@@ -89,14 +90,14 @@ body{
 	}
 }
 
-@keyframes moveUp{
+@keyframes moveRight{
 	0%{
 		opacity: 0;
-		transform:translateY(100px);
+		transform:translateX(100px);
 	}
 
 	80%{
-
+		transform: translateX(-10px);
 	}
 
 	100%{
