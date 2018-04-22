@@ -1,0 +1,23 @@
+{
+  "name": "websitedesign",
+  "version": "1.0.0",
+  "description": "landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrolmr/tour-site.git"
+  },
+  "author": "Pedro Montesinos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrolmr/tour-site/issues"
+  },
+  "homepage": "https://github.com/pedrolmr/tour-site#readme",
+  "devDependencies": {
+    "node-sass": "^4.8.3"
+  },
+  "dependencies": {}
+}
