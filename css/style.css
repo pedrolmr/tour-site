@@ -175,7 +175,7 @@ body {
     font-size: 3rem;
     color: green;
     height: 50rem;
-    transition: all .5s;
+    transition: all .5s ease;
     position: absolute;
     top: 0;
     left: 0;
